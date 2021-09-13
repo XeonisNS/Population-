@@ -1,0 +1,15 @@
+/*Malcolm Ealy
+ * 9/13/2021
+ * CSC-111
+ * Introduction to Java
+ * 
+ */
+public class Population {
+
+	public static void main(String[] args) {
+		System.out.println("Starting Population " + 312032486);
+		System.out.println("After one year:     " + (312032486 + (365*24*60*60) / 7 - (365*24*60*60) / 13 + (365*24*60*60)/ 45 ));
+
+	}
+
+}
